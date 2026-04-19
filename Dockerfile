@@ -1,4 +1,4 @@
-FROM webdevops/php-nginx:7.4
+FROM webdevops/php-nginx:8.1
 
 RUN apt-get update && apt-get install -y \
     stress-ng \
